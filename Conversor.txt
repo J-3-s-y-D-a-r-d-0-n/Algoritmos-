@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Conversor2{
+public static void main(String args[]){
+System.out.println("Introduzca las horas que desea convertir a milisegundos");
+long a;
+Scanner b= new Scanner (System.in);
+a=b.nextLong();
+long c;
+c= a*3600000;
+System.out.println("Las "+a+" ingresadas son equivalentes a "+c+" milisegundos");
+}
+}
